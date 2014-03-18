@@ -1,0 +1,26 @@
+/*
+body { background: url('stripe.png'); }
+*/
+
+ul {margin: 0px; padding: 0px}
+li {list-style: square; margin-left: 32px; padding: 0; line-height: 1.2em; padding-bottom: 7px;}
+/* li { background: #fff; margin-bottom: 16px;  width:32em; padding: 8px; border-top: 4px solid #ccc; border-bottom: 1px solid #aaa;} */
+li { padding: 8px; border-bottom: 1px solid #aaa;} 
+h1 { font-size: 2.0em; margin: 16px; margin-left: 32px;}
+h2 { font-size: 1.2em; margin: 16px; margin-left: 32px;}
+p { margin: 16px; margin-left: 32px;}
+body { font-size: 1.2em; font-family: calibri,georgia,arial,verdna,helvetica; }
+/* #valid { margin-left: 32px; font-size: 0.5em} */
+#valid { font-size: 0.5em}
+img { margin: 10px; border: 2px solid black; border-bottom: 3px solid black;}
+
+#main {width:480px; position: relative; float: left; }
+#social {width:304px; position: relative; float: left; margin-left: 16px; }
+
+@media screen and (max-device-width:800px) {
+
+#social { margin-left: 0px; width: 100% }
+#social iframe { width:  100% } 
+#main { width: 100% }
+
+}

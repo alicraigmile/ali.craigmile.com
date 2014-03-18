@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:wot="http://xmlns.com/wot/0.1/"
+	xmlns:admin="http://webns.net/mvcb/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+	<foaf:PersonalProfileDocument rdf:about="">
+		<foaf:maker rdf:resource="#me" /> 
+		<foaf:primaryTopic rdf:resource="#me" /> 
+	</foaf:PersonalProfileDocument>
+
+	<foaf:Group rdf:ID="bbc">
+		<foaf:name>British Broadcasting Corporation</foaf:name> 
+		<foaf:logo rdf:resource="http://static.bbc.co.uk/frameworks/barlesque/1.8.7/desktop/2.7/img/blocks.png" /> 
+		<foaf:homepage rdf:resource="http://www.bbc.co.uk" /> 
+		<dc:title>British Broadcasting Corporation</dc:title> 
+	</foaf:Group>
+
+	<foaf:Group rdf:ID="hodgers_dot_com">
+		<foaf:name>hodgers.com</foaf:name> 
+		<foaf:logo rdf:resource="http://hodgers.com/home/images/tintin.gif" /> 
+		<foaf:homepage rdf:resource="http://www.hodgers.com/" /> 
+		<dc:title>hodgers.com</dc:title> 
+	</foaf:Group>
+
+	<foaf:Person rdf:about="#me">
+		<foaf:nick>ali</foaf:nick> 
+		<foaf:nick>alic</foaf:nick> 
+		<foaf:nick>alicraigmile</foaf:nick> 
+		<foaf:nick>craigmonster</foaf:nick>
+		<foaf:nick>craigmaj</foaf:nick>
+		<foaf:nick>craiga01</foaf:nick>
+		<foaf:nick>daddy</foaf:nick>
+		<owl:sameAs rdf:resource="http://id.bbc.co.uk/users/acraigmile" /> 
+		<dc:description>I have worked at BBC Scotland since 2001. Right now, I lead the BBC Future Media team based in Glasgow - and work on Learning websites.</dc:description> 
+		<foaf:name>Ali Craigmile</foaf:name> 
+		<foaf:title>Mr</foaf:title> 
+		<foaf:givenname>Alistair</foaf:givenname> 
+		<foaf:family_name>Craigmile</foaf:family_name> 
+		<foaf:img rdf:resource="http://ali.craigmile.com/me.jpg" /> 
+		<foaf:mbox>ali_at_craigmile.com</foaf:mbox> 
+		<foaf:skypeID>ali.craigmile</foaf:skypeID>
+		<foaf:homepage rdf:resource="http://ali.craigmile.com" /> 
+		<foaf:workplaceHomepage rdf:resource="http://www.bbc.co.uk/" /> 
+		<foaf:member rdf:resource="#bbc" /> 
+		<foaf:geekcode>Version: 1.0 GCS/O d s+:+ a C++ UL+++ P++++ L+++ E--- W+++ N++ w-- O- M+ PS+ PE Y+ PGP- t+ 5 X R- tv+ b DI++ D G e h--- r+++ z+++</foaf:geekcode> 
+		<wot:pubkeyAddress rdf:resource="http://ali.craigmile.com/me.gpg" /> 
+		<foaf:membershipClass rdf:resource="#bbc" />
+		<foaf:membershipClass rdf:resource="#hodgers_dot_com" />
+	</foaf:Person>
+</rdf:RDF>

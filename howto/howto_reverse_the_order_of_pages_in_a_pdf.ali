@@ -1,0 +1,8 @@
+h1. HOWTO Reverse the order of the pages in a PDF
+
+{code}
+pdftk.exe A=in.pdf cat A4-1 Aend output out.pdf
+{code}
+
+* http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+* http://www.pdflabs.com/docs/pdftk-man-page/

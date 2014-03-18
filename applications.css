@@ -1,0 +1,25 @@
+               body { color: #033; line-height: 1.5em; font-family: georgia}
+.nav { background-color: #ccc; width: 200px; padding: 10px; list-style-type: none }
+                li { margin: 0px; }
+                p, li { color: #666; padding-left: 0px;}
+                p a,
+                li a { color: #00f; border-bottom: 1px dashed; text-decoration: none;}
+                p a:visited,
+                li a:visited { color: #666; }
+                p a:hover,
+                li a:hover { color: #00f; border-bottom: 1px solid; }
+                h2 {
+                        text-decoration: underline;
+                        margin-left: 16px;
+                }
+                h2 + * { margin-left: 16px; }
+                h3 {
+                        text-decoration: underline;
+                        margin-left: 32px;
+                }
+                h3 + * { margin-left: 32px; }
+                form label { background: red; position: relative; left: 300px; }
+                form span { background: yellow; display: block; float: left }
+                form input {  }
+                form textarea{ }
+
