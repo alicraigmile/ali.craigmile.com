@@ -1,0 +1,4 @@
+RewriteEngine On
+#RewriteBase /ali/
+RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
+RewriteRule ^(index.shtml)?$ /foaf.rdf [R=303,L]
