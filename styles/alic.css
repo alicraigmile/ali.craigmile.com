@@ -7,30 +7,21 @@ h1 { font-family: molotregular }
 p { line-height: 1.3em; max-width: 30em; }
 li { line-height: 1.3em }
 
-ul {margin: 0px; padding: 0px}
-li {list-style: square; margin-left: 32px; padding: 0; line-height: 1.2em; padding-bottom: 7px;}
-/* li { background: #fff; margin-bottom: 16px;  width:32em; padding: 8px; border-top: 4px solid #ccc; border-bottom: 1px solid #aaa;} */
-li { padding: 8px; border-bottom: 1px solid #aaa;} 
-h1 { font-size: 2.0em; margin: 16px; margin-left: 32px;}
-h2 { font-size: 1.2em; margin: 16px; margin-left: 32px;}
-p { margin: 16px; margin-left: 32px;}
-/* #valid { margin-left: 32px; font-size: 0.5em} */
+ul {margin: 0px; padding: 0px;}
+li {list-style: square; margin-left: 37px; padding: 0; padding-bottom: 8px;}
+
+h1 { font-size: 2.0em; margin: 16px } 
+h2 { font-size: 1.2em; margin: 16px }
+p { margin: 16px }
+
 #valid { font-size: 0.5em}
-img { margin: 10px; border: 2px solid black; border-bottom: 3px solid black;}
+img { border: 8px solid white; border-bottom: 40px solid white; box-shadow: 4px 8px #ccc}
+body { background: #efefef }
 
+/* screen > 800px */
 
-
-/*
-#biog, #menu, #more  {width:480px; position: relative; float: left; }
-#social {width:304px; position: relative; float: left; margin-left: 16px; }
-*/
+/* screen <= 800px */
 
 @media screen and (max-device-width:800px) {
-
-/*
-#social { margin-left: 0px; width: 100% }
-#social iframe { width:  100% } 
-#biog, #menu, #more { width: 100% }
-*/
 
 }
