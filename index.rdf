@@ -37,7 +37,7 @@
 		<foaf:nick>craiga01</foaf:nick>
 		<foaf:nick>daddy</foaf:nick>
 		<owl:sameAs rdf:resource="http://id.bbc.co.uk/users/acraigmile" /> 
-    <dc:description>I'm a Web Developer turned Digital Product Manager and I work at the BBC in Glasgow. Most recently on the BBC Bitesize and BBC iWonder websites. I live in Fairlie, North Ayrshire with my wife and 2 small children.</dc:description>
+    <dc:description>I'm a Web Developer turned Digital Product Manager and I work at the BBC in Glasgow. Most recently on the websites for BBC Bitesize and BBC iWonder. I live in Fairlie, North Ayrshire with my wife and 2 small children.</dc:description>
 		<foaf:name>Ali Craigmile</foaf:name> 
 		<foaf:title>Mr</foaf:title> 
 		<foaf:givenname>Alistair</foaf:givenname> 
