@@ -4,7 +4,7 @@ body { background: url('stripe.png'); }
 
 body { font-size: 1.2em; font-family: calibri,georgia,arial,verdna,helvetica; }
 h1 { font-family: molotregular }
-p { line-height: 1.3em; max-width: 30em; }
+p { line-height: 1.3em; max-width: 600px; }
 li { line-height: 1.3em }
 
 ul {margin: 0px; padding: 0px;}
@@ -16,12 +16,30 @@ p { margin: 16px }
 
 #valid { font-size: 0.5em}
 img { border: 8px solid white; border-bottom: 40px solid white; box-shadow: 4px 8px #ccc}
-body { background: #efefef }
+body { background: #efefef}
 
-/* screen > 800px */
+/*
+ * section#social { background: #ccc; padding: 8px 0 }
+ * /
 
-/* screen <= 800px */
+/* normal sized screens */
+section {max-width: 600px }
+section#header { text-align: center }
+section#footer p { text-align: center }
 
-@media screen and (max-device-width:800px) {
+@media only screen and (min-width: 600px){
+section { position: relative; left: 50%; margin-left: -300px } 
+}
 
+
+/* small screens */
+@media only screen and (max-width: 600px){
+  section#biog p { text-align:justify; }
+}
+
+/* very small screens */
+@media only screen and (max-width: 220px){
+  p { margin: 8px; }
+  section#header h1 { font-size: 1.2em; }
+  section#header img { width: 80%; }
 }
