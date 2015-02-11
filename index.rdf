@@ -37,7 +37,7 @@
 		<foaf:nick>craiga01</foaf:nick>
 		<foaf:nick>daddy</foaf:nick>
 		<owl:sameAs rdf:resource="http://id.bbc.co.uk/users/acraigmile" /> 
-		<dc:description>I have worked at BBC Scotland since 2001. Right now, I lead the BBC Future Media team based in Glasgow - and work on Learning websites.</dc:description> 
+    <dc:description>I'm a Web Developer turned Digital Product Manager and I work at the <abbr title="British Broadcasting Corporation">BBC</abbr> in Glasgow. I work on BBC Bitesize and BBC iWonder (websites). I live in Fairlie, North Ayrshire with my wife and 2 small children.</dc:description>
 		<foaf:name>Ali Craigmile</foaf:name> 
 		<foaf:title>Mr</foaf:title> 
 		<foaf:givenname>Alistair</foaf:givenname> 
@@ -49,7 +49,7 @@
 		<foaf:workplaceHomepage rdf:resource="http://www.bbc.co.uk/" /> 
 		<foaf:member rdf:resource="#bbc" /> 
 		<foaf:geekcode>Version: 1.0 GCS/O d s+:+ a C++ UL+++ P++++ L+++ E--- W+++ N++ w-- O- M+ PS+ PE Y+ PGP- t+ 5 X R- tv+ b DI++ D G e h--- r+++ z+++</foaf:geekcode> 
-		<wot:pubkeyAddress rdf:resource="http://ali.craigmile.com/me.gpg" /> 
+    <wot:pubkeyAddress rdf:resource="http://ali.craigmile.com/images/me.gpg" /> 
 		<foaf:membershipClass rdf:resource="#bbc" />
 		<foaf:membershipClass rdf:resource="#hodgers_dot_com" />
 	</foaf:Person>
