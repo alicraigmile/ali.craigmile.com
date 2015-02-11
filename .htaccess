@@ -1,11 +1,13 @@
 RewriteEngine On
 
+Header add X-Test "This is a test"
+
+RewriteRule ^me\.jpg /images/me.jpg  [R=301,L]
+RewriteRule ^applications\.html /articles/applications.html  [R=301,L]
+RewriteRule ^favicon\.ico /images/favicon.ico  [R=301,L]
+RewriteRule ^favicon\.gif /images/favicon.gif  [R=301,L]
+RewriteRule ^stripe\.png /images/stripe.png  [R=301,L]
+RewriteRule ^18649ea434ae4eff307c981c9454d35e\.png /images/18649ea434ae4eff307c981c9454d35e.png [R=301,L]
+
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
 RewriteRule ^(index.shtml)?$ /foaf.rdf [R=303,L]
-
-RewriteRule /applications.html /articles/applications.html  [R=301,L]
-RewriteRule /favicon.ico /images/favicon.ico  [R=301,L]
-RewriteRule /favicon.gif /images/favicon.gif  [R=301,L]
-RewriteRule /me.jpg /images/me.jpg  [R=301,L]
-RewriteRule /stripe.png /images/stripe.png  [R=301,L]
-RewriteRule /18649ea434ae4eff307c981c9454d35e.png /images/18649ea434ae4eff307c981c9454d35e.png [R=301,L]
