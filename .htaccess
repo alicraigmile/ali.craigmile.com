@@ -1,6 +1,7 @@
 RewriteEngine On
 
-Header add X-Test "This is a test"
+#Header add X-Test "This is a test"
+RewriteRule ^deploy\.sh - [F]
 
 RewriteRule ^me\.jpg /images/me.jpg  [R=301,L]
 RewriteRule ^applications\.html /articles/applications.html  [R=301,L]
