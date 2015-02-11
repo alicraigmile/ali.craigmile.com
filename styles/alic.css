@@ -2,6 +2,8 @@
 body { background: url('stripe.png'); }
 */
 
+h1 { font-family: molotregular }
+
 ul {margin: 0px; padding: 0px}
 li {list-style: square; margin-left: 32px; padding: 0; line-height: 1.2em; padding-bottom: 7px;}
 /* li { background: #fff; margin-bottom: 16px;  width:32em; padding: 8px; border-top: 4px solid #ccc; border-bottom: 1px solid #aaa;} */
