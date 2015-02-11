@@ -14,28 +14,6 @@ body { font-size: 1.2em; font-family: calibri,georgia,arial,verdna,helvetica; }
 #valid { font-size: 0.5em}
 img { margin: 10px; border: 2px solid black; border-bottom: 3px solid black;}
 
-section { background: #ededed; margin-bottom: 1em; border-radius: 10px; padding: 0.5em }
-
-ul.social li { background-position: left center; 
-background-size: 32px;
-background-repeat: no-repeat; 
-padding-left: 40px;
-}
-.facebook { background: url('img/social/facebook.svg'); }
-.twitter { background: url('img/social/twitter.svg'); }
-.youtube { background: url('img/social/youtube.svg'); }
-.flickr { background: url('img/social/flickr.svg'); }
-.linkedin { background: url('img/social/linkedin.svg'); }
-.github { background: url('img/social/github.svg'); }
-.tumblr { background: url('img/social/tumblr.svg'); }
-.lastfm { background: url('img/social/lastfm.svg'); }
-
-.social {  list-style-type: none; padding: 0; margin: 0 }
-.social li { display: inline; }
-.social li { 
-float: left;
-padding: 0.2em; 1em;
-}
 
 
 /*
