@@ -1,13 +1,32 @@
 {
   "projects": [
     {
+      "title": "Wearables",
+      "date": "2016",
+      "role": "Maker",
+      "_image": "/images/projects/wearable.jpg"
+		},
+    {
       "title": "Bitesize - Revision App",
 			"url": "",
 			"client": "BBC Bitesize",
       "description": "Revise on the go - personlised, Bitesized learning for 14-16 yr olds on iOS and Android smartphones.",
       "date": "2016",
       "role": "Product Manager",
-      "image": "/images/projects/bbc_bitesize_revision_app.jpg"
+      "_image": "/images/projects/bbc_bitesize_revision_app.jpg"
+		},
+    {
+      "title": "Playhouse",
+			"client": "My Kids",
+      "date": "2016",
+      "role": "Builder",
+      "_image": "/images/projects/fairlie_playhouse.jpg"
+		},
+    {
+      "title": "Bluetooth Speakers",
+      "date": "2016",
+      "role": "Maker",
+      "_image": "/images/projects/bluetooth_speakers.jpg"
 		},
     {
       "title": "Fairlie.org",
@@ -15,22 +34,22 @@
       "description": "",
       "date": "2016",
       "role": "Editor",
-      "image": "/images/projects/fairlie_org.jpg"
+      "_image": "/images/projects/fairlie_org.jpg"
 		},
     {
-      "title": "weeproductblog.org",
+      "title": "The wee product blog",
 			"client": "",
       "description": "",
       "date": "2015",
       "role": "Editor",
-      "image": "/images/projects/wee_product_blog.jpg"
+      "_image": "/images/projects/wee_product_blog.jpg"
 		},
     {
       "title": "KeyStage 3 Activities",
       "client": "BBC Bitesize",
       "description": "",
       "role": "Technical Project Manager",
-      "image": "/images/projects/bbc_bitesize_2.jpg"
+      "_image": "/images/projects/bbc_bitesize_2.jpg"
 		},
     {
       "title": "Bitesize v2",
@@ -38,14 +57,14 @@
       "description": "",
       "date": "2013",
       "role": "Product Manager",
-      "image": "/images/projects/bbc_bitesize_2.jpg"
+      "_image": "/images/projects/bbc_bitesize_2.jpg"
 		},
     {
       "title": "Ochiltree",
       "description": "Extension and modernisation of 1930s Bungalow to suit a 21st century family",
       "date": "2013-2016",
       "role": "Self Builder",
-      "image": "/images/projects/ochiltree.jpg"
+      "_image": "/images/projects/ochiltree.jpg"
 		},
     {
       "title": "Knowledge & Learning Beta",
@@ -53,34 +72,34 @@
       "description": "",
       "date": "2012",
       "role": "Product Manager",
-      "image": "/images/projects/bbc_bitesize_2.jpg"
+      "image": "/images/projects/kandl_beta.jpg"
 		},
     {
       "title": "Ziggy's LazyTown Challenge",
       "client": "CBBC",
       "description": "",
       "role": "Technical Project Manager",
-      "image": "/images/projects/ziggy.jpg"
+      "image": "/images/projects/lazytown.jpg"
 		},
     {
-      "title": "BBC - Óran Nan La",
+      "title": "BBC - Òran Nan Là",
       "client": "BBC Alba",
       "description": "",
       "role": "Tech Lead / Technical Project Manager",
-      "image": "/images/projects/oran_nan_la.jpg"
+      "image": "/images/projects/oran.jpg"
 		},
     {
       "title": "Mission:2110",
       "client": "CBBC",
       "description": "",
       "role": "Tech Lead / Tecnical Project Manager",
-      "image": "/images/projects/mission_2110.jpg"
+      "image": "/images/projects/mission2110.jpg"
 		},
     {
       "title": "BBC Scotland Player",
       "client": "BBC Scotland",
       "role": "Web Developer",
-      "image": "/images/projects/bbc_scotland_player.jpg"
+      "_image": "/images/projects/bbc_scotland_player.jpg"
 		},
     {
       "title": "The Predictor",
@@ -88,36 +107,55 @@
       "date": "2005-8",
 			"description": "Popular Football/Rugby score prediction game",
       "role": "Tech Lead / Web Developer",
-      "image": "/images/projects/the_predictor.jpg"
+      "image": "/images/projects/predictor.jpg"
+		},
+    {
+      "title": "QMD Tenement",
+      "role": "Self Builder",
+      "_image": "/images/projects/qmd.jpg",
+			"description": "Tasteful renovation of one of Glasgow's Victorian temenent flats"
+    },
+    {
+      "title": "Robert Burns",
+      "client": "BBC Scotland",
+      "role": "Tech Lead / Technical Project Manager",
+      "_image": "/images/projects/robert_burns.jpg",
+			"description": "Comprehensive online audio archive of Burns' works"
 		},
     {
       "title": "Generate",
       "client": "BBC Scotland",
       "date": "2001",
       "role": "Web Developer",
-      "image": "/images/projects/generate.jpg"
+      "_image": "/images/projects/generate.jpg"
 		},
     {
-      "title": "Robert Burns",
-      "client": "BBC Scotland",
-      "role": "Tech Lead / Technical Project Manager",
-      "image": "/images/projects/robert_burns.jpg",
-			"description": "Comprehensive online audio archive of Burns' works"
+      "title": "Secondhand Bookshop",
+      "client": "Glasgow University SRC",
+      "description": "Web searchable index of the University Secondhand bookshop",
+      "role": "Web Developer",
+      "_image": "/images/projects/second_hand_bookshop.jpg"
 		},
     {
       "title": "The Guide 2000",
       "client": "Glasgow University SRC",
       "description": "273? page book given out to every new student joining Glasgow University in the year 2000",
       "role": "Author",
-      "image": "/images/projects/guide_2000.jpg"
+      "_image": "/images/projects/guide_2000.jpg"
 		},
     {
-      "title": "GUST Best Broadcaster",
+      "title": "Best Broadcaster",
       "client": "Glasgow University Student Television",
       "description": "Winning entry at the National Union of Student Television stations",
       "date": "2000",
       "role": "Editor, Technical Co-ordinator",
-      "image": "/images/projects/gust_best_broadcaster.jpg"
+      "_image": "/images/projects/gust_best_broadcaster.jpg"
+    },
+    {
+      "title": "Impulse Data Logger",
+      "client": "Positioning Resources Ltd",
+      "role": "Developer",
+      "_image": "/images/projects/impulse_data_logger.jpg"
     }
   ]
 }
