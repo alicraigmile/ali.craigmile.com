@@ -6,7 +6,7 @@ var app = require('../lib/app'),
     http = require('http'),
     server = http.createServer(app),
     port = require('../config').port,
-    appName = require('../package').title;
+    appName = require('../package').name;
 
 app.set('port', port);
 app.use(logger);

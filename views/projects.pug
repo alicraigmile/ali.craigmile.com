@@ -11,16 +11,42 @@ html
   body
     div(class='container')
       h1 Browse projects
+      style.
+        .description { background: #eee; margin-top: -8px; margin-bottom: 4px; padding: 4px }
+        .image { margin-bottom: 8px; }
+        ul {
+          margin: 0 auto;
+          text-align: center;
+        }
+
+        li {
+          width: 240px;
+          margin-left: 8px; margin-right: 8px;
+          display: inline-block;
+          vertical-align: top;
+        }
       ul
         each p in projects
-          li
+          li(id='projects')
             div(class='project')
-              span(class='title')
+              h4(class='title')
                 = p.title 
-              = ' ' 
-              span(class='role')= ' (role: ' + p.role + ')'
-              = ' ' 
-              span(class='description')= p.description
+              div(class='image')
+                img(src='/images/projects/placeholder.png' width=240 height=240 alt='')
+              if p.description
+                div(class='description')= p.description
+              if p.role
+                div(class='role')
+                  strong= 'Role: '
+                  = p.role
+              if p.date
+                div(class='date')
+                  strong= 'Date: '
+                  = p.date
+              if p.client
+                div(class='client')
+                  strong= 'Client: '
+                  = p.client
       aside
         p
           | © 2016 by Ali Craigmile |
