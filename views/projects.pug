@@ -1,0 +1,29 @@
+html
+  head
+    title Projects projects
+    meta(charset="utf-8")
+    script(src='/bower_components/jquery/dist/jquery.min.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+    script(src='/bower_components/bootstrap-combobox/js/bootstrap-combobox.js')
+    link(rel='stylesheet', href='/bower_components/bootstrap-combobox/css/bootstrap-combobox.css')
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+
+  body
+    div(class='container')
+      h1 Browse projects
+      ul
+        each p in projects
+          li
+            div(class='project')
+              span(class='title')
+                = p.title 
+              = ' ' 
+              span(class='role')= ' (role: ' + p.role + ')'
+              = ' ' 
+              span(class='description')= p.description
+      aside
+        p
+          | © 2016 by Ali Craigmile |
+          = ' '
+          a(href='mailto:webmaster@xgusties.com') Contact Us
+

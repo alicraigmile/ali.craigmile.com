@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "BBC Robert Burns",
+      "description": "",
+      "date": "",
+      "role": "Tech Lead & Project Manager",
+      "image": "/images/projects/robert_burns.jpg"
+		},
+    {
+      "title": "GUST Best Broadcaster",
+      "description": "",
+      "date": "",
+      "role": "Editor, Technical Co-ordinator",
+      "image": "/images/projects/gust_best_broadcaster.jpg"
+    }
+  ]
+}

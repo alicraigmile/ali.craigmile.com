@@ -1,0 +1,30 @@
+{
+  "name": "ali.craigmile.com",
+  "version": "1.0.0",
+  "description": "Ali Craigmile's personal website",
+  "scripts": {
+    "start": "node ./bin/server",
+    "test": "mocha test/",
+		"postinstall": "node_modules/.bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicraigmile/ali.craigmile.com.git"
+  },
+  "author": "Ali Craigmile <ali@craigmile.com> (http://ali.craigmile.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicraigmile/ali.craigmile.com/issues"
+  },
+  "homepage": "https://github.com/alicraigmile/ali.craigmile.com#readme",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.1.2",
+    "moment": "^2.17.0",
+    "morgan": "^1.7.0",
+    "pug": "^0.1.0",
+    "supertest": "^2.0.1"
+  }
+}
