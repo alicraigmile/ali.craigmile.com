@@ -1,59 +1,93 @@
-html
-  head
-    title Projects | Ali Craigmile
-    meta(charset="utf-8")
-    script(src='/bower_components/jquery/dist/jquery.min.js')
-    script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
-    script(src='/bower_components/bootstrap-combobox/js/bootstrap-combobox.js')
-    link(rel='stylesheet', href='/bower_components/bootstrap-combobox/css/bootstrap-combobox.css')
-    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+Html
+    head
+        title Projects | Ali Craigmile
+        meta(charset="utf-8")
+        script(src='/bower_components/jquery/dist/jquery.min.js')
+        script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
+        script(src='/bower_components/bootstrap-combobox/js/bootstrap-combobox.js')
+        link(rel='stylesheet', href='/bower_components/bootstrap-combobox/css/bootstrap-combobox.css')
+        link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    body
+        div(class='container')
+            h1 Browse projects
+            style.
+                .description { background: #eee; margin-top: 0; margin-bottom: 4px; padding: 4px }
+                .image { margin-bottom: 8px; }
+                img { max-height: 160px; object-fit: cover;}
+                ul {
+                    margin: 0 auto;
+                    text-align: center;
+                }
 
-  body
-    div(class='container')
-      h1 Browse projects
-      style.
-        .description { background: #eee; margin-top: -8px; margin-bottom: 4px; padding: 4px }
-        .image { margin-bottom: 8px; }
-        ul {
-          margin: 0 auto;
-          text-align: center;
-        }
+                li {
+                    width: 240px;
+                    margin-bottom: 30px;
+                    margin-left: 8px; margin-right: 8px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+            each group in groups
+                h2= group.year
+                ul
+                each p in group.projects
+                    li.projects
+                        div.project
+                            h4.title
+                                if p.title
+                                    = p.title
+                                else
+                                    Untitled 
+                            .image
+                            if p.image
+                                if p.gallery
+                                    a(href=p.gallery)
+                                        img(src=p.image width=240 alt='')
+                                else if p.youtube
+                                    a(href=p.youtube)
+                                        img(src=p.image width=240 alt='')              
+                                else if p.website
+                                    a(href=p.website)
+                                        img(src=p.image width=240 alt='')
+                                else if p.itunes 
+                                    a(href=p.itunes)
+                                        img(src=p.image width=240 alt='')              
+                                else if p.blogpost 
+                                    a(href=p.blogpost)
+                                        img(src=p.image width=240 alt='')              
 
-        li {
-          width: 240px;
-          margin-bottom: 30px;
-          margin-left: 8px; margin-right: 8px;
-          display: inline-block;
-          vertical-align: top;
-        }
-      ul
-        each p in projects
-          li(id='projects')
-            div(class='project')
-              h4(class='title')
-                = p.title 
-              div(class='image')
-                if p.image
-                  img(src=p.image width=240 alt='')
-                else
-                  img(src='/images/projects/placeholder.png' width=240 height=240 alt='')
-              if p.description
-                div(class='description')= p.description
-              if p.role
-                div(class='role')
-                  strong= 'Role: '
-                  = p.role
-              if p.date
-                div(class='date')
-                  strong= 'Date: '
-                  = p.date
-              if p.client
-                div(class='client')
-                  strong= 'Client: '
-                  = p.client
-      aside
-        p
-          | © 2016 by Ali Craigmile |
-          = ' '
-          a(href='mailto:webmaster@xgusties.com') Contact Us
+                                else 
+                                    img(src=p.image width=240 alt='')
+                            else
+                                img(src='/images/projects/placeholder.png' width=240 height=160 alt='')
+                            if p.description
+                                div(class='description')= p.description
+                            div(class="btn-group")
+                                if p.youtube
+                                    a(class="btn btn-primary" href=p.youtube) Watch video
+                                if p.gallery
+                                    a(class="btn btn-primary" href=p.gallery) View gallery
+                                if p.website
+                                    a(class="btn btn-primary" href=p.website) Visit website
+                                if p.blogpost
+                                    a(class="btn btn-primary" href=p.blogpost) Read blog post
+                                if p.itunes
+                                    a(class="btn btn-primary" href=p.itunes) iTunes Store
+                                    a(class="btn btn-primary" href=p.playstore) Google Play
+                            if p.role
+                                div(class='role')
+                                    strong= 'Role: '
+                                    = p.role
+                            if p.date
+                                div(class='date')
+                                    strong= 'Date: '
+                                    = p.date
+                            if p.client
+                                div(class='client')
+                                    strong= 'Client: '
+                                    = p.client
+            aside
+                p
+                    | © 2016 by Ali Craigmile |
+                    = ' '
+                    a(href='mailto:webmaster@xgusties.com') Contact Us
 
