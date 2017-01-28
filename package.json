@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/server",
     "test": "mocha test/",
-    "postinstall": "node_modules/.bin/bower install"
+    "postinstall": "node_modules/.bin/bower install",
+		"postversion": "git push origin && git push origin --tags"
   },
   "repository": {
     "type": "git",
