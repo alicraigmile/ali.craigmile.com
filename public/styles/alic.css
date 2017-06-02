@@ -1,7 +1,7 @@
 
 body { font-size: 1.2em; font-family: calibri,georgia,arial,verdna,helvetica; }
 h1 { font-family: molotregular }
-p { line-height: 1.3em; max-width: 600px; }
+p { line-height: 1.3em; }
 li { line-height: 1.3em }
 
 ul {margin: 0px; padding: 0px;}
@@ -14,34 +14,20 @@ p { margin: 16px }
 #valid { font-size: 0.5em}
 img { border: 1px solid #000 }
 
-/*
-body { background: #fff }
-section { background: #efefef; padding: 1px; box-shadow: 4px 8px #ccc}
-*/
-
 a, a:link { color: blue; }
 a:visited { color: #99f; }
 a:active { color: #99f; }
 a:hover { color: green; }
 
 /* normal sized screens */
-section {max-width: 600px }
 section#header { text-align: center }
 section#footer p { text-align: center }
 
-@media only screen and (min-width: 600px){
-section { position: relative; left: 50%; margin-left: -300px } 
+body { min-width: 240px; max-width: 600px; background-color: #eee;}
+@media only screen and (min-device-width : 600px) {
+    body { margin: auto; width: 600px;}
 }
 
-
-/* small screens */
-@media only screen and (max-width: 600px){
-  section#biog p { text-align:justify; }
-}
-
-/* very small screens */
-@media only screen and (max-width: 220px){
-  p { margin: 8px; }
-  section#header h1 { font-size: 1.2em; }
-  section#header img { width: 80%; }
+@media only screen and (min-device-width : 1024px) {
+    body { margin: auto; width: 768px;}
 }

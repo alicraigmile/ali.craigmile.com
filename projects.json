@@ -1,0 +1,228 @@
+{
+  "projects": [
+    {
+      "title": "DROPPAR lamp",
+      "description": "My IKEA-hack disco lamp - bringing together a DROPPAR food jar from IKEA, 60 WS2812B programmable LEDs, a piece of PVC pipe, a old 5V phone charger and an Arduino Pro Mini to control the lot. The whole project cost less than £20 to make!",
+			"youtube": "https://www.youtube.com/watch?v=I6xaQ6AU5bE",
+      "date": "Jan 2017",
+      "year": "2017",
+      "role": "Maker",
+      "keywords": "Electronics",
+      "image": "/images/projects/droppar_lamp.png"
+		},
+    {
+      "title": "Bitesize Revision App",
+			"playstore": "https://play.google.com/store/apps/details?id=uk.co.bbc.bitesize",
+      "itunes": "https://itunes.apple.com/gb/app/bbc-bitesize/id1089215244?mt=8%20",
+			"client": "BBC Bitesize",
+      "description": "Revise on the go - personlised, Bitesized learning for 14-16 yr olds on iOS and Android smartphones.",
+      "date": "Mar 2016",
+      "year": "2016",
+      "role": "Product manager",
+      "keywords": "Digital, Education, Mobile",
+      "image": "/images/projects/bitesize_app.png"
+		},
+    {
+      "hidden": "true",
+      "title": "Playhouse",
+      "description": "The kids asked for a playhouse. Daddy delivered.",
+      "date": "2016",
+      "year": "2016",
+      "role": "Builder",
+      "keywords": "Outdoors",
+      "_image": "/images/projects/fairlie_playhouse.jpg"
+		},
+    {
+      "title": "Bluetooth Speakers",
+      "description": "I upcycled a set of old Hi-Fi speakers by integrating a Bluetooth receiver. Now I can play my favourite tunes wirelessly from across the room.",
+      "date": "2016",
+      "year": "2016",
+      "role": "Maker",
+      "keywords": "Electronics",
+      "_image": "/images/projects/bluetooth_speakers.jpg"
+		},
+    {
+      "title": "fairlie.org",
+      "website": "http://www.fairlie.org",
+			"client": "",
+      "description": "An online guide to my local village.",
+      "date": "2016",
+      "year": "2016",
+      "role": "Editor",
+      "keywords": "Digital",
+      "image": "/images/projects/fairlie_org.jpg"
+		},
+    {
+      "title": "Playground",
+      "description": "Balance bars, a slide, swings and a zipslide to keep the kids busy in the garden.",
+      "date": "2016",
+      "year": "2016",
+      "role": "Maker",
+      "keywords": "Outdoors",
+      "image": "/images/projects/playground.jpg"
+    },
+    {
+      "title": "Mud kitchen",
+      "description": "Another use for old pallets; this week it's the 'mud kitchen'.",
+      "date": "Sep 2015",
+      "year": "2015",
+      "role": "Maker",
+      "keywords": "Outdoors",
+      "image": "/images/projects/mud_kitchen.jpg"
+    },
+    {
+      "title": "Garden-related",
+      "gallery": "https://www.flickr.com/photos/acraigmile/albums/72157679735159575",
+      "description": "Raised beds made of salvaged sarking boards, reclaimed 'dalry' bricks and the odd spare pallet.",
+      "date": "Aug 2015",
+      "year": "2015",
+      "role": "Maker",
+      "keywords": "Outdoors",
+      "image": "/images/projects/raised_beds.jpg"
+    },
+    {
+      "title": "The wee product blog",
+      "website": "http://weeproductblog.com/",
+			"client": "",
+      "description": "My wee blog, containing a collection of tips and tricks for the aspiring digital product manager, designer or executive.",
+      "date": "2015-",
+      "year": "2015",
+      "role": "Editor",
+      "keywords": "Blog, Digital",
+      "image": "/images/projects/wee_product_blog.jpg"
+		},
+    {
+      "title": "Bitesize v2",
+      "client": "BBC Bitesize",
+      "website": "http://www.bbc.co.uk/bitesize/",
+      "description": "Ground-up redesign and redevelopment of the BBC's flagship learning website - Bitesize. Responsive design, SEO improvements including microdata, localised into 4 languages.",
+      "year": "2013",
+      "date": "2013",
+      "role": "Product manager",
+      "keywords": "Digital, Education",
+      "image": "/images/projects/bitesize_v2.jpg"
+		},
+    {
+      "title": "Ochiltree",
+      "description": "Extension and modernisation of 1930s Bungalow to suit a 21st century family.",
+      "date": "2013-2016",
+      "year": "2016",
+      "role": "Self builder",
+      "image": "/images/projects/ochiltree_extension.jpg",
+      "gallery": "https://www.flickr.com/photos/acraigmile/albums/72157650499028562"
+		},
+    {
+      "title": "Knowledge & Learning Beta",
+      "client": "BBC Learning",
+      "description": "",
+      "blogpost": "http://www.bbc.co.uk/blogs/internet/entries/76239bbb-6f6f-3c51-a81b-85c76d8cd4cb",
+      "year": "2012",
+      "date": "2012",
+      "role": "Product manager",
+      "image": "/images/projects/kandl_beta.jpg"
+		},
+    {
+      "title": "Ziggy's LazyTown Challenge",
+      "client": "Cbeebies",
+      "year": "2009",
+      "date": "2009",
+      "description": "Snakes-and-ladders-esque online 3D board game built in Flash.",
+      "role": "Project manager",
+      "image": "/images/projects/lazytown.jpg"
+		},
+    {
+      "title": "BBC - Òran an Là",
+      "client": "BBC Alba",
+      "website": "http://www.bbc.co.uk/alba/oran/",
+      "description": "Extensive archive of Scots Gaelic song from the BBC Archive.",
+      "year": "2009",
+      "date": "2009",
+      "role": "Tech lead, Project manager",
+      "image": "/images/projects/oran.jpg"
+		},
+    {
+      "hidden": "true",
+      "title": "Mission:2110 Game",
+      "client": "CBBC",
+      "description": "Online adventure game built in Flash.",
+      "date": "2010",
+      "year": "2010",
+      "role": "Tech lead, Project manager",
+      "image": "/images/projects/mission2110.jpg"
+		},
+    {
+      "hidden": "true",
+      "title": "BBC Scotland Player",
+      "client": "BBC Scotland",
+      "role": "Developer",
+      "_image": "/images/projects/bbc_scotland_player.jpg"
+    },
+    {
+      "title": "The Predictor",
+      "client": "BBC Sport",
+      "date": "2005-2008",
+      "year": "2005",
+			"description": "Popular Football/Rugby score prediction game.",
+      "role": "Tech lead, Developer",
+      "image": "/images/projects/predictor.jpg"
+		},
+    {
+      "title": "QMD Tenement",
+      "role": "Self builder",
+      "date": "2006-2010",
+      "year": "2006",
+      "gallery": "https://www.flickr.com/photos/acraigmile/albums/72057594076948488",
+      "image": "/images/projects/qmd.jpg",
+			"description": "Tasteful renovation of one of Glasgow's Victorian temenent flats."
+    },
+    {
+      "title": "Robert Burns",
+      "website": "http://www.bbc.co.uk/arts/robertburns/",
+      "date": "2008-2011",
+      "year": "2008",
+      "client": "BBC Scotland",
+      "role": "Tech lead, Project manager",
+      "image": "/images/projects/robert_burns.png",
+			"description": "Comprehensive online audio archive of Burns' works."
+		},
+    {
+      "title": "Generate",
+      "client": "BBC Scotland",
+      "description": "Personliased video e-cards",
+      "date": "2001",
+      "year": "2001",
+      "role": "Developer",
+      "image": "/images/projects/generate.png"
+		},
+    {
+      "hidden": "true",
+      "title": "Secondhand Bookshop",
+      "client": "Glasgow University SRC",
+      "year": "2000",
+      "date": "2000",
+      "description": "Web searchable index of the University Secondhand bookshop.",
+      "role": "Developer",
+      "image": "/images/projects/src_bookshop.png"
+		},
+    {
+      "hidden": "true",
+      "title": "The Guide 2000",
+      "client": "Glasgow University SRC",
+      "year": "2000",
+      "date": "2000",
+      "description": "273 page book given out to every new student joining Glasgow University in the year 2000.",
+      "role": "Author",
+      "_image": "/images/projects/guide_2000.jpg"
+		},
+    {
+      "hidden": "true",
+      "title": "Best Student Broadcaster",
+      "client": "Glasgow University Student Television",
+      "description": "Winning entry at the National Union of Student Television stations.",
+      "date": "2000-2001",
+      "year": "2000",
+      "role": "Video editor, Technical co-ordinator",
+      "_image": "/images/projects/gust_best_broadcaster.jpg"
+    }
+  ]
+}
