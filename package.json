@@ -1,6 +1,6 @@
 {
   "name": "ali.craigmile.com",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Ali Craigmile's personal website",
   "scripts": {
     "prestart": "bower install",
