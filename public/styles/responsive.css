@@ -1,0 +1,35 @@
+.card-img-top {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+.card {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: top
+}
+
+body {
+    min-width: 240px;
+    background-color: #eee
+}
+
+@media only screen and (min-device-width : 542px) {
+    .card {
+        width: 240px;
+    }
+    .card-img-top {
+        width: 238px;
+    }
+    body { margin: auto; width: 542px;}
+}
+
+@media only screen and (min-device-width : 800px) {
+    body { margin: auto; width: 800px;}
+}
+
+@media only screen and (min-device-width : 1200px) {
+    body { margin: auto; width: 1200px;}
+}

@@ -151,13 +151,6 @@
       "image": "/images/projects/mission2110.jpg"
 		},
     {
-      "hidden": "true",
-      "title": "BBC Scotland Player",
-      "client": "BBC Scotland",
-      "role": "Developer",
-      "_image": "/images/projects/bbc_scotland_player.jpg"
-    },
-    {
       "title": "The Predictor",
       "client": "BBC Sport",
       "date": "2005-2008",
@@ -182,7 +175,7 @@
       "year": "2008",
       "client": "BBC Scotland",
       "role": "Tech lead, Project manager",
-      "image": "/images/projects/robert_burns.png",
+      "image": "/images/projects/robert_burns.jpg",
 			"description": "Comprehensive online audio archive of Burns' works."
 		},
     {

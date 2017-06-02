@@ -1,26 +1,15 @@
 Html
     head
-        title Projects | Ali Craigmile
+        title Projects by Ali Craigmile
         meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
         script(src='/bower_components/jquery/dist/jquery.min.js')
         script(src='/bower_components/bootstrap/dist/js/bootstrap.min.js')
         link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/styles/responsive.css')
     body
-        style.
-            .card-img-top {
-                width: 16rem;
-                height: 12rem;
-                object-fit: cover;
-            }
-            .card {
-                width: 16rem;
-                margin-bottom: 30px;
-                margin-left: 8px; margin-right: 8px;
-                display: inline-block;
-                vertical-align: top;
-            }
         .container
-            h1 Browse projects
+            h1 Projects
             .cards
                 each p in projects
                     div(class="card mb-3")

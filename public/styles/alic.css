@@ -23,6 +23,19 @@ a:hover { color: green; }
 section#header { text-align: center }
 section#footer p { text-align: center }
 
+.card-img-top {
+    width: 16rem;
+    height: 12rem;
+    object-fit: cover;
+}
+.card {
+    width: 16rem;
+    margin-bottom: 30px;
+    margin-left: 8px; margin-right: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+
 body { min-width: 240px; max-width: 600px; background-color: #eee;}
 @media only screen and (min-device-width : 600px) {
     body { margin: auto; width: 600px;}
