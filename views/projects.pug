@@ -21,64 +21,61 @@ Html
             }
         .container
             h1 Browse projects
-            each group in groups
-                h2= group.year
-                .row
-                    .cards
-                        each p in group.projects
-                            div(class="card mb-3")
-                                if p.image
-                                    if p.gallery
-                                        a(href=p.gallery)
-                                            img(class='card-img-top' src=p.image alt='')
-                                    else if p.youtube
-                                        a(href=p.youtube)
-                                            img(class='card-img-top' src=p.image alt='')              
-                                    else if p.website
-                                        a(href=p.website)
-                                            img(class='card-img-top' src=p.image alt='')
-                                    else if p.itunes 
-                                        a(href=p.itunes)
-                                            img(class='card-img-top' src=p.image alt='')              
-                                    else if p.blogpost 
-                                        a(href=p.blogpost)
-                                            img(class='card-img-top' src=p.image alt='')              
-                                    else 
-                                        img(class='card-img-top' src=p.image alt='')
+            .cards
+                each p in projects
+                    div(class="card mb-3")
+                        if p.image
+                            if p.gallery
+                                a(href=p.gallery)
+                                    img(class='card-img-top' src=p.image alt='')
+                            else if p.youtube
+                                a(href=p.youtube)
+                                    img(class='card-img-top' src=p.image alt='')              
+                            else if p.website
+                                a(href=p.website)
+                                    img(class='card-img-top' src=p.image alt='')
+                            else if p.itunes 
+                                a(href=p.itunes)
+                                    img(class='card-img-top' src=p.image alt='')              
+                            else if p.blogpost 
+                                a(href=p.blogpost)
+                                    img(class='card-img-top' src=p.image alt='')              
+                            else 
+                                img(class='card-img-top' src=p.image alt='')
+                        else
+                            img(class='card-img-top' src='/images/projects/placeholder.png' height=160 alt='')
+                        div(class='card-block')
+                            h4(class='card-title')
+                                if p.title
+                                    = p.title
                                 else
-                                    img(class='card-img-top' src='/images/projects/placeholder.png' height=160 alt='')
-                                div(class='card-block')
-                                    h4(class='card-title')
-                                        if p.title
-                                            = p.title
-                                        else
-                                            Untitled
-                                    if p.client || p.date
-                                        h6(class="card-subtitle mb-2 text-muted")
-                                            = p.client
-                                            if p.client && p.date
-                                                = ", "
-                                            = p.date
-                                    if p.description
-                                        div(class='card-text')= p.description
-                                    div(class="btn-group")
-                                        if p.youtube
-                                            a(class="btn btn-primary" href=p.youtube) Watch video
-                                        if p.gallery
-                                            a(class="btn btn-primary" href=p.gallery) View gallery
-                                        if p.website
-                                            a(class="btn btn-primary" href=p.website) Visit website
-                                        if p.blogpost
-                                            a(class="btn btn-primary" href=p.blogpost) Read blog post
-                                        if p.itunes
-                                            a(class="btn btn-primary" href=p.itunes) iTunes Store
-                                div(class="card-footer")
-                                    if p.role
-                                        small(class="text-muted")
-                                            = p.role
-                                            if p.keywords
-                                                = '; '
-                                                = p.keywords
+                                    Untitled
+                            if p.client || p.date
+                                h6(class="card-subtitle mb-2 text-muted")
+                                    = p.client
+                                    if p.client && p.date
+                                        = ", "
+                                    = p.date
+                            if p.description
+                                div(class='card-text')= p.description
+                            div(class="btn-group")
+                                if p.youtube
+                                    a(class="btn btn-primary" href=p.youtube) Watch video
+                                if p.gallery
+                                    a(class="btn btn-primary" href=p.gallery) View gallery
+                                if p.website
+                                    a(class="btn btn-primary" href=p.website) Visit website
+                                if p.blogpost
+                                    a(class="btn btn-primary" href=p.blogpost) Read blog post
+                                if p.itunes
+                                    a(class="btn btn-primary" href=p.itunes) iTunes Store
+                        div(class="card-footer")
+                            if p.role
+                                small(class="text-muted")
+                                    = p.role
+                                    if p.keywords
+                                        = '; '
+                                        = p.keywords
         footer.footer
             .container
                 p(class="text-muted") © 2017 by Ali Craigmile |
